@@ -6,7 +6,7 @@
 body{
     background-color: #222828;
     color: white;
-    font-family: 'Charm', cursive;
+    font-family: 'Charm', ;
     text-align: justify;
     width: 95%;
     margin-left: 2%;
@@ -42,7 +42,7 @@ img{
     width: 40px;
 }
 
-#hr1{
+#linea{
     width: 150px;
     height: 2px;
     margin-left: 100px;
@@ -57,7 +57,7 @@ img{
 }
 
 main{
-    background-color:#C3CACA;
+    background-color: rgb(68, 141, 209);
     margin-top: 5%;
     padding-top: 1%;
     padding-bottom: 8%;
@@ -85,7 +85,7 @@ button{
     background-color:#C3CACA;
 }
 
-#aporte{
+#enviar{
     margin-top: 50px;
     margin-bottom: 40px;
     text-align: center;
@@ -159,6 +159,22 @@ footer p{
         width: 70%;
         margin-left: 15%;
     }
+
+}
+.encabezado{
+    background-color: rgb(34, 109, 158);
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tamaño{
+    width: 5%
+}
+.columna{
+    display: flex;
+    flex-direction: column;
 }
 
 /* Tamaño Mediano*/
@@ -205,4 +221,19 @@ footer p{
         margin-left: 0%;
         margin-top: 35px;
     }
+}
+.encabezado{
+    background-color: rgb(34, 109, 158);
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tamaño{
+    width: 2%;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
 }
